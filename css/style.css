@@ -18,15 +18,9 @@
     border: 0
 }
 
-
-/* =========== footer ============ */
+/* ============ footer ============= */
 
 @media (max-width: 600px) {
-
-    body {
-        background-color: #343a40;
-        height: 100px;
-    }
 
     footer {
         background-color: #FFFFFF;
