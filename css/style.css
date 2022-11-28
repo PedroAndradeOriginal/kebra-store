@@ -59,6 +59,7 @@
 
     .textoEnd p {
         margin-top: 5px;
+        margin-bottom: 5px;
         text-align: center;
         font-family: 'montserrat';
         font-size: 7pt;
@@ -70,6 +71,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        border-top: rgb(218, 218, 218) solid 1px;
     }
 
     .jabazinho p {
@@ -134,6 +136,7 @@
 
     .textoEnd p {
         margin-top: 5px;
+        margin-bottom: 5px;
         text-align: center;
         font-family: 'montserrat';
         font-size: 7pt;
@@ -145,13 +148,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        border-top: rgb(218, 218, 218) solid 1px;
     }
 
     .jabazinho p {
         margin-top: -2px;
         font-family: 'russoOne';
         color: #000;
-        font-size: 6pt;
+        font-size: 7pt;
         margin-right: 10px;
     }
 
@@ -227,6 +231,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        border-top: rgb(218, 218, 218) solid 1px;
     }
 
     .jabazinho p {
