@@ -31,44 +31,69 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
-    .endPage {
-        width: 100%;
+    .pageEnd {
+        width: 95%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
     }
 
-    .endPage h2 {
+    .logoImg {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoEnd h2 {
+        width: 100%;
         text-align: center;
         font-family: 'montserrat';
         font-size: 11pt;
     }
 
-    .endPage p {
+    .textoEnd p {
+        margin-top: 5px;
         text-align: center;
         font-family: 'montserrat';
-        font-size: 11pt;
+        font-size: 7pt;
     }
 
     .jabazinho {
+        width: 95%;
+        height: 20%;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
     }
 
     .jabazinho p {
+        margin-top: -2px;
         font-family: 'russoOne';
         color: #000;
-        font-size: 11pt;
+        font-size: 6pt;
         margin-right: 10px;
     }
 
     .jabazinho span {
         color: #3f0663;
     }
+
+    .jabazinho nav {
+        width: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .jabazinho nav img {
+        width: 90%;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -80,58 +105,150 @@
         position: absolute;
         bottom: 0;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
-    .endPage {
-        margin-left: 20px;
-        width: 80%;
+    .pageEnd {
+        width: 95%;
         height: 80%;
         display: flex;
         align-items: center;
-        flex-wrap: wrap
+        justify-content: space-around;
     }
 
-    .endPage h2 {
+    .logoImg {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoEnd h2 {
+        width: 100%;
         text-align: center;
         font-family: 'montserrat';
         font-size: 11pt;
     }
 
-    .endPage p {
+    .textoEnd p {
+        margin-top: 5px;
         text-align: center;
         font-family: 'montserrat';
-        font-size: 11pt;
+        font-size: 7pt;
     }
 
     .jabazinho {
-        width: 30%;
-        height: 80%;
+        width: 95%;
+        height: 20%;
         display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
+        align-items: center;
+        justify-content: center;
     }
 
     .jabazinho p {
-        width: 60%;
+        margin-top: -2px;
         font-family: 'russoOne';
-        font-size: 11pt;
         color: #000;
-        margin-right: 5px;
-        margin-left: 5px;
+        font-size: 6pt;
+        margin-right: 10px;
     }
 
     .jabazinho span {
         color: #3f0663;
     }
 
-    nav {
-        width: 40%;
+    .jabazinho nav {
+        width: 100px;
         display: flex;
         justify-content: space-evenly;
     }
 
+    .jabazinho nav img {
+        width: 90%;
+    }
+
+    .jabazinho nav img:hover {
+        transform: scale(1.1);
+    }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+
+    footer {
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 189px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pageEnd {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logoImg {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoEnd {
+        width: 67%;
+    }
+
+    .textoEnd h2 {
+        width: 100%;
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 14pt;
+    }
+
+    .textoEnd p {
+        margin-top: 5px;
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 9pt;
+    }
+
+    .jabazinho {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jabazinho p {
+        margin-top: -2px;
+        font-family: 'russoOne';
+        color: #000;
+        font-size: 9pt;
+        margin-right: 10px;
+    }
+
+    .jabazinho span {
+        color: #3f0663;
+    }
+
+    .jabazinho nav {
+        width: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .jabazinho nav img:hover {
+        transform: scale(1.1);
+    }
+
+}
