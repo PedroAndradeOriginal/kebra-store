@@ -207,6 +207,11 @@
         justify-content: center;
     }
 
+    .logoImg  img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
     .textoEnd {
         width: 67%;
     }
