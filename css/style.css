@@ -1,3 +1,13 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/css/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: russoOne;
+    src: url(/css/fonts/russoOne/RussoOne-Regular.ttf);
+}
+
 /* =========== reset css ============ */
 
 * {
@@ -28,5 +38,40 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    .endPage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .endPage h2 {
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 11pt;
+    }
+
+    .endPage p {
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 11pt;
+    }
+
+    .jabazinho {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .jabazinho p {
+        font-family: 'russoOne';
+        color: #000;
+        margin-right: 10px;
+    }
+
+    .jabazinho span {
+        color: #3f0663;
     }
 }
