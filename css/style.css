@@ -20,7 +20,7 @@
 
 /* ============ footer ============= */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 767px) {
 
     footer {
         background-color: #FFFFFF;
@@ -62,6 +62,7 @@
     .jabazinho p {
         font-family: 'russoOne';
         color: #000;
+        font-size: 11pt;
         margin-right: 10px;
     }
 
@@ -69,3 +70,68 @@
         color: #3f0663;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    footer {
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 189px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .endPage {
+        margin-left: 20px;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap
+    }
+
+    .endPage h2 {
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 11pt;
+    }
+
+    .endPage p {
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 11pt;
+    }
+
+    .jabazinho {
+        width: 30%;
+        height: 80%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .jabazinho p {
+        width: 60%;
+        font-family: 'russoOne';
+        font-size: 11pt;
+        color: #000;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .jabazinho span {
+        color: #3f0663;
+    }
+
+    nav {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {}
