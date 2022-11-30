@@ -18,6 +18,26 @@
     border: 0
 }
 
+/* =========== header ============ */
+
+.bg-dark {
+    background-color: #FFFFFF!important;
+}
+
+.text-white {
+    color: #000!important;
+}
+
+.text-muted {
+    font-size: 17pt;
+}
+
+.navbar-dark .navbar-toggler {
+    color: black;
+    border-color: black;
+    background-color: lightslategray;
+}
+
 /* ============ footer ============= */
 
 @media screen and (max-width: 767px) {
