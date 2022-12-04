@@ -35,7 +35,7 @@
 .navbar-dark .navbar-toggler {
     color: black;
     border-color: black;
-    background-color: lightslategray;
+    background-color: #969696;
 }
 
 
@@ -58,7 +58,7 @@
     .navbar-dark .navbar-toggler {
         color: black;
         border-color: black;
-        background-color: lightslategray;
+        background-color: #969696;
     }
 
     /* ============ footer ============= */
@@ -156,9 +156,9 @@
     .navbar-dark .navbar-toggler {
         color: black;
         border-color: black;
-        background-color: lightslategray;
+        background-color:#969696;
     }
-
+    
     footer {
         background-color: #FFFFFF;
         width: 100%;
@@ -235,6 +235,7 @@
     .jabazinho nav img:hover {
         transform: scale(1.1);
     }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -254,7 +255,7 @@
     .navbar-dark .navbar-toggler {
         color: black;
         border-color: black;
-        background-color: lightslategray;
+        background-color: #969696;
     }
 
     footer {
