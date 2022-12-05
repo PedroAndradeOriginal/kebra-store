@@ -200,6 +200,13 @@
     background-color: #caa977;
 }
 
+.btn {
+    width: 23px;
+    height: 23px;
+    padding: 0px;
+    border-radius: 50px;
+}
+
 
 /* ============  Responsivo            ============= */
 /* ============              ============= */
@@ -256,9 +263,10 @@
     }
 
     .cardimg {
-        width: 75%;
+        width: 70%;
         height: 359px;
         display: flex;
+        margin-top: 4px;
     }
 
     .cardBody {
@@ -358,6 +366,7 @@
 
     .row {
         display: flex;
+        margin-left: 50px;
     }
 
     .col {
@@ -368,7 +377,7 @@
         width: 348px;
         height: 518px;
         display: flex;
-       
+        align-items: center;
         margin-bottom: 89px;
         border-radius: 25px;
                
@@ -376,7 +385,7 @@
     }
 
     .cardimg {
-        width: 75%;
+        width: 60%;
         height: 359px;
         display: flex;
     }
