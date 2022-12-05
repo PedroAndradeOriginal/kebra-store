@@ -18,50 +18,30 @@
     border: 0
 }
 
-/* =========== header ============ */
-
-.bg-dark {
-    background-color: #FFFFFF!important;
-}
-
-.text-white {
-    color: #000!important;
-}
-
-.text-muted {
-    font-size: 17pt;
-}
-
-.navbar-dark .navbar-toggler {
-    color: black;
-    border-color: black;
-    background-color: #969696;
-}
-
-
 @media screen and (max-width: 767px) {
 
-    /* =========== header ============ */
+    .navbar-img-desktop {
+        display: none;
+    }
 
     .bg-dark {
         background-color: #FFFFFF!important;
     }
 
     .text-white {
+        font-family: 'montserrat';
         color: #000!important;
     }
 
+    .navbar-toggler {
+        color: #000!important;
+        background-color: rgb(30, 30, 30, 21%);
+    }
+
     .text-muted {
-        font-size: 17pt;
+        font-family: 'montserrat';
+        color: #000!important;
     }
-
-    .navbar-dark .navbar-toggler {
-        color: black;
-        border-color: black;
-        background-color: #969696;
-    }
-
-    /* ============ footer ============= */
 
     footer {
         background-color: #FFFFFF;
@@ -140,25 +120,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .bg-dark {
-        background-color: #FFFFFF!important;
-    }
-
-    .text-white {
-        color: #000!important;
-    }
-
-    .text-muted {
-        font-size: 17pt;
-    }
-
-    .navbar-dark .navbar-toggler {
-        color: black;
-        border-color: black;
-        background-color:#969696;
-    }
     
+    .navbar-img-desktop {
+        display: none;
+    }
+
     footer {
         background-color: #FFFFFF;
         width: 100%;
@@ -240,22 +206,8 @@
 
 @media screen and (min-width: 1024px) {
 
-    .bg-dark {
-        background-color: #FFFFFF!important;
-    }
-
-    .text-white {
-        color: #000!important;
-    }
-
-    .text-muted {
-        font-size: 17pt;
-    }
-
-    .navbar-dark .navbar-toggler {
-        color: black;
-        border-color: black;
-        background-color: #969696;
+    .navbar-img-mobile {
+        display: none;
     }
 
     footer {
