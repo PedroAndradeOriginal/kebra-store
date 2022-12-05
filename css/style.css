@@ -125,6 +125,25 @@
         display: none;
     }
 
+    .bg-dark {
+        background-color: #FFFFFF!important;
+    }
+
+    .text-white {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+    .navbar-toggler {
+        color: #000!important;
+        background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .text-muted {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
     footer {
         background-color: #FFFFFF;
         width: 100%;
@@ -208,6 +227,25 @@
 
     .navbar-img-mobile {
         display: none;
+    }
+
+    .bg-dark {
+        background-color: #FFFFFF!important;
+    }
+
+    .text-white {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+    .navbar-toggler {
+        color: #000!important;
+        background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .text-muted {
+        font-family: 'montserrat';
+        color: #000!important;
     }
 
     footer {
