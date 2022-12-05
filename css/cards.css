@@ -1,0 +1,392 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/css/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: kanit ;
+    src: url(/css/fonts/kanit/Kanit-Regular.ttf);
+}
+
+/* =========== reset css ============ */
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+/* ============  card 1          ============= */
+
+#c1a {
+    background-color: #000000;
+}
+
+#c1b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c1c {
+    background-color: #d37c2c;
+}
+
+#c1d {
+    background-color: #caa977;
+}
+
+/* ============  card 2         ============= */
+
+#c2a {
+    background-color: #000000;
+}
+
+#c2b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c2c {
+    background-color: #4556f5;
+}
+
+#c2d {
+    background-color: #FFBCF0;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+/* ============  card 3         ============= */
+
+#c3a {
+    background-color: #000000;
+}
+
+#c3b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c3c {
+    background-color: #d37c2c;
+}
+
+#c3d {
+    background-color: #caa977;
+}
+
+/* ============  card 4         ============= */
+
+#c4a {
+    background-color: #000000;
+}
+
+#c4b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c4c {
+    background-color: #FFBCF0;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c4d {
+    background-color: #4556f5;
+}
+
+/* ============  card 5          ============= */
+
+#c5a {
+    background-color: #000000;
+}
+
+#c5b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c5c {
+    background-color: #FAE634;
+}
+
+#c5d {
+    display: none;
+    background-color: #caa977;
+}
+
+/* ============  card 6        ============= */
+
+#c6a {
+    background-color: #000000;
+}
+
+#c6b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c6c {
+    background-color: #4556f5;
+}
+
+#c6d {
+    display: none;
+    background-color: #caa977;
+}
+
+/* ============  card 7         ============= */
+
+#c7a {
+    background-color: #000000;
+}
+
+#c7b {
+    background-color:#FAE634;
+    /* border: 1px solid rgb(37, 37, 37); */
+}
+
+#c7c {
+    display:none ;
+    background-color: #d37c2c;
+}
+
+#c7d {
+    display: none;
+    background-color: #caa977;
+}
+
+/* ============  card 8      ============= */
+
+#c8a {
+    background-color: #CAA977;
+    border: #1e1e1e;
+}
+
+#c8b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c8c {
+    display: none;
+    background-color: #d37c2c;
+}
+
+#c8d {
+    display: none;
+    background-color: #caa977;
+}
+
+/* ============  card 9       ============= */
+
+#c9a {
+    background-color: #000000;
+}
+
+#c9b {
+    background-color:#ffffffff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#c9c {
+    display: none;
+    background-color: #d37c2c;
+}
+
+#c9d {
+    display: none;
+    background-color: #caa977;
+}
+
+
+/* ============  Responsivo            ============= */
+/* ============              ============= */
+@media screen and (max-width: 767px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #1e1e1e;
+    }
+
+    article {
+        display: flex;
+    }
+
+    .album {
+        display: flex;
+    }
+
+    .containercards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        /* border: 3px solid white; */
+    }
+
+    .row {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    } 
+
+    .card {
+        width: 348px;
+        height: 518px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 89px;
+        border-radius: 25px;
+               
+        /* border: 3px solid red;  */
+    }
+
+    .cardimg {
+        width: 75%;
+        height: 359px;
+        display: flex;
+    }
+
+    .cardBody {
+        width: 100%;
+        height: 159px;
+        display: flex;
+        align-items: center;
+        font-family: 'kanit';
+        font-size: 16px;
+        text-align: left; 
+        font-weight: 400;
+        line-height: 24px;
+        
+
+        /* border: 3px solid black; */
+    }
+    
+    .bodyA {
+        /* border: 3px solid black; */
+        width: 60%;
+        height: 159px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 15px;
+        
+    }
+    
+    .txtA {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .bodyA p {
+        margin-bottom: 1px;
+    }
+
+    .btn {
+        width: 23px;
+        height: 23px;
+        padding: 0px;
+        border-radius: 50px;
+    }
+
+    .sizes {
+        font-family: 'montserrat';
+        font-weight: 300;
+        font-size: 14px;
+
+    }
+
+
+
+    .bodyB {
+        display: flex;
+        
+    }
+
+    .price {
+        font-family: 'montserrat';
+        font-weight: 400;
+        font-size: 28px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+
+
+
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    main {
+        display: flex;
+        
+        
+        background-color: #1e1e1e;
+    }
+
+    article {
+        display: flex;
+    }
+
+    .album {
+        display: flex;
+    }
+
+    .containercards {
+        font-display: flex;
+        
+        
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .col {
+        display: flex;
+        
+    }
+    .card {
+        width: 348px;
+        height: 518px;
+        display: flex;
+       
+        margin-bottom: 89px;
+        border-radius: 25px;
+               
+         border: 3px solid red;  
+    }
+
+    .cardimg {
+        width: 75%;
+        height: 359px;
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+   
+
+
+
+
+}
