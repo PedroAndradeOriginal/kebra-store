@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: kanit ;
+    font-family: kanit;
     src: url(/css/fonts/kanit/Kanit-Regular.ttf);
 }
 
@@ -25,7 +25,7 @@
 }
 
 #c1b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -44,7 +44,7 @@
 }
 
 #c2b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -64,7 +64,7 @@
 }
 
 #c3b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -83,7 +83,7 @@
 }
 
 #c4b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -103,7 +103,7 @@
 }
 
 #c5b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -123,7 +123,7 @@
 }
 
 #c6b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -143,12 +143,12 @@
 }
 
 #c7b {
-    background-color:#FAE634;
+    background-color: #FAE634;
     /* border: 1px solid rgb(37, 37, 37); */
 }
 
 #c7c {
-    display:none ;
+    display: none;
     background-color: #d37c2c;
 }
 
@@ -165,7 +165,7 @@
 }
 
 #c8b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -186,7 +186,7 @@
 }
 
 #c9b {
-    background-color:#ffffffff;
+    background-color: #ffffffff;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -205,6 +205,7 @@
     height: 23px;
     padding: 0px;
     border-radius: 50px;
+    margin-bottom: 4px;
 }
 
 
@@ -237,7 +238,7 @@
     }
 
     .row {
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -247,18 +248,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-       
-    } 
-
+        
+    }
+    
     .card {
         width: 348px;
         height: 518px;
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 89px;
+        margin-bottom: 50px;
         border-radius: 25px;
-               
+
         /* border: 3px solid red;  */
     }
 
@@ -276,12 +277,12 @@
         align-items: center;
         font-family: 'kanit';
         font-size: 16px;
-        text-align: left; 
+        text-align: left;
         font-weight: 400;
         line-height: 24px;
         /* border: 3px solid black; */
     }
-    
+
     .bodyA {
         /* border: 3px solid black; */
         width: 60%;
@@ -290,9 +291,9 @@
         flex-direction: column;
         text-align: left;
         margin-left: 15px;
-        
+
     }
-    
+
     .txtA {
         font-weight: 600;
         font-size: 20px;
@@ -300,7 +301,7 @@
         margin-top: 10px;
         margin-bottom: 5px;
     }
-    
+
     .bodyA p {
         margin-bottom: 1px;
     }
@@ -309,6 +310,7 @@
         width: 23px;
         height: 23px;
         padding: 0px;
+        margin-bottom: 4px;
         border-radius: 50px;
     }
 
@@ -323,7 +325,7 @@
 
     .bodyB {
         display: flex;
-        
+
     }
 
     .price {
@@ -336,7 +338,7 @@
 
 
 
- 
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -364,8 +366,8 @@
         font-display: flex;
         align-items: center;
         justify-content: center;
-        
-        
+
+
     }
 
     .row {
@@ -375,15 +377,15 @@
         justify-content: space-around;
         /* border: 3px solid blue; */
     }
-    
-    .col-md-6   {
+
+    .col-md-6 {
         width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
 
         /* border: 3px solid green; */
-        
+
     }
 
     .card {
@@ -392,10 +394,10 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 89px;
+        margin-bottom: 70px;
         border-radius: 25px;
-               
-         /* border: 3px solid red;   */
+
+        /* border: 3px solid red;   */
     }
 
     .cardimg {
@@ -406,13 +408,13 @@
     }
 
     .cardBody {
-        width:100% ;
+        width: 100%;
         height: 159px;
         display: flex;
         align-items: center;
         font-family: 'kanit';
         font-size: 16px;
-        text-align: left; 
+        text-align: left;
         font-weight: 400;
         line-height: 24px;
     }
@@ -425,8 +427,9 @@
         text-align: left;
         margin-left: 15px;
         /* border: 3px solid black; */
-        
+
     }
+
     .txtA {
         font-weight: 600;
         font-size: 20px;
@@ -457,7 +460,7 @@
 
     .bodyB {
         display: flex;
-        
+
     }
 
     .price {
@@ -472,7 +475,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-   
+
     main {
         display: flex;
         background-color: #1e1e1e;
@@ -488,8 +491,8 @@
 
     .containercards {
         font-display: flex;
-        
-        
+
+
     }
 
     .row {
@@ -501,23 +504,25 @@
         /* border: 3px solid blue; */
     }
 
-    .col-md-6  {
+    .col-md-6 {
         width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
         /* border: 3px solid green; */
     }
+
     .card {
         width: 348px;
         height: 518px;
         display: flex;
         align-items: center;
-        flex-direction: column;
-        margin-bottom: 89px;
+        justify-content: space-around;
+        /* flex-direction: column; */
+        margin-bottom: 70px;
         border-radius: 25px;
-               
-         /* border: 3px solid red;   */
+
+         /* border: 3px solid red;    */
     }
 
     .cardimg {
@@ -528,13 +533,13 @@
     }
 
     .cardBody {
-        width:100% ;
+        width: 100%;
         height: 159px;
         display: flex;
         align-items: center;
         font-family: 'kanit';
         font-size: 16px;
-        text-align: left; 
+        text-align: left;
         font-weight: 400;
         line-height: 24px;
     }
@@ -547,8 +552,9 @@
         flex-direction: column;
         text-align: left;
         margin-left: 15px;
-        
+
     }
+
     .txtA {
         font-weight: 600;
         font-size: 20px;
@@ -579,7 +585,7 @@
 
     .bodyB {
         display: flex;
-        
+
     }
 
     .price {
