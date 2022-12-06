@@ -18,30 +18,9 @@
     border: 0
 }
 
+/* ============ footer ============= */
+
 @media screen and (max-width: 767px) {
-
-    .navbar-img-desktop {
-        display: none;
-    }
-
-    .bg-dark {
-        background-color: #FFFFFF!important;
-    }
-
-    .text-white {
-        font-family: 'montserrat';
-        color: #000!important;
-    }
-
-    .navbar-toggler {
-        color: #000!important;
-        background-color: rgb(30, 30, 30, 21%);
-    }
-
-    .text-muted {
-        font-family: 'montserrat';
-        color: #000!important;
-    }
 
     footer {
         background-color: #FFFFFF;
@@ -120,29 +99,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    .navbar-img-desktop {
-        display: none;
-    }
-
-    .bg-dark {
-        background-color: #FFFFFF!important;
-    }
-
-    .text-white {
-        font-family: 'montserrat';
-        color: #000!important;
-    }
-
-    .navbar-toggler {
-        color: #000!important;
-        background-color: rgb(30, 30, 30, 21%);
-    }
-
-    .text-muted {
-        font-family: 'montserrat';
-        color: #000!important;
-    }
 
     footer {
         background-color: #FFFFFF;
@@ -220,33 +176,9 @@
     .jabazinho nav img:hover {
         transform: scale(1.1);
     }
-
 }
 
 @media screen and (min-width: 1024px) {
-
-    .navbar-img-mobile {
-        display: none;
-    }
-
-    .bg-dark {
-        background-color: #FFFFFF!important;
-    }
-
-    .text-white {
-        font-family: 'montserrat';
-        color: #000!important;
-    }
-
-    .navbar-toggler {
-        color: #000!important;
-        background-color: rgb(30, 30, 30, 21%);
-    }
-
-    .text-muted {
-        font-family: 'montserrat';
-        color: #000!important;
-    }
 
     footer {
         background-color: #FFFFFF;
