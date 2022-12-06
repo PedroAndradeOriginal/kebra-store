@@ -418,13 +418,13 @@
     }
 
     .bodyA {
-        /* border: 3px solid black; */
         width: 60%;
         height: 159px;
         display: flex;
         flex-direction: column;
         text-align: left;
         margin-left: 15px;
+        /* border: 3px solid black; */
         
     }
     .txtA {
