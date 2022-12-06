@@ -1,0 +1,98 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/css/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: russoOne;
+    src: url(/css/fonts/russoOne/RussoOne-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar-img-desktop {
+        display: none;
+    }
+
+    .bg-dark {
+        background-color: #FFFFFF!important;
+    }
+
+    .text-white {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+    .navbar-toggler {
+        color: #000!important;
+        background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .text-muted {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .navbar-img-mobile {
+        display: none;
+    }
+
+    .bg-dark {
+        background-color: #FFFFFF!important;
+    }
+
+    .text-white {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+    .navbar-toggler {
+        color: #000!important;
+        background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .text-muted {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+}
+
+@media screen and (min-width: 1024px)  {
+
+    .navbar-img-mobile {
+        display: none;
+    }
+
+    .bg-dark {
+        background-color: #FFFFFF!important;
+    }
+
+    .text-white {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+    .navbar-toggler {
+        color: #000!important;
+        background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .text-muted {
+        font-family: 'montserrat';
+        color: #000!important;
+    }
+
+}
