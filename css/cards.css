@@ -234,20 +234,25 @@
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        /* border: 3px solid white; */
+        /* border: 3px solid white;  */
     }
-
+    
     .row {
+        width: 350px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column ;
         align-items: center;
         justify-content: center;
+        /* border: 3px solid white;  */
     }
-
+    
+ 
+    
     .col {
         display: flex;
         align-items: center;
         justify-content: center;
+        /* border: 3px solid white;  */
         
     }
     
