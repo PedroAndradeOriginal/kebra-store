@@ -3,7 +3,7 @@ let modal = document.querySelector('.slideModelo');
 let botao = document.querySelector('#botao-fechar');
 
 
-card.addEventListener('click', abreModal, false);
+// card.addEventListener('click', abreModal, false);
 
 function abreModal() {
     modal.classList.toggle('modal-troca')
