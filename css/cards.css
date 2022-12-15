@@ -222,13 +222,7 @@
     background-color: #1e1e1e;
 }
 
-.row {
-    width: 100%;
-    display: flex;
-    
-    padding-left: auto;
-    padding-right: auto;
-}
+
 
 .cardBody {
     width: 358px;
@@ -321,7 +315,7 @@
         align-items: center;
         justify-content: center; 
         background-color: #1e1e1e;
-        border: 3px solid white;  
+        
     }
 
      article {
@@ -330,7 +324,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 3px solid white;  
+        
     } 
 
     .album {
@@ -339,26 +333,20 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 3px solid white;  
+
     }
 
-    .container{
+    .container-card {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        border: 3px solid white;  
+        
         
     } 
     
-    .row {
-        width: 100%;
-        display: flex;
-        flex-direction: column ;
-        align-items: center;
-        justify-content: center; 
-    }
+
     
     .card {
         width: 358px;
@@ -441,7 +429,6 @@
     /* modal */
 
     .slideModelo {
-        border: 3px solid blue;
         width: 100%;
         height: 100%;
         display: flex;
@@ -455,7 +442,7 @@
 
     .conteudo {
 
-        border: 3px solid red; 
+        
         width: 100%;
         height: 100%;
         display:flex;
@@ -469,10 +456,6 @@
         margin-left: 40px;
         margin-right: 40px; 
         margin-bottom: 40px;
-        
-       
-        border: 3px solid blue;
-        
     }
 
 
@@ -507,11 +490,7 @@
 
     }
 
-    .row {
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
+ 
 
 
 
@@ -617,12 +596,6 @@
 
     }
 
-    .row {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
 
 
