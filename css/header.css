@@ -31,6 +31,10 @@
         padding: 0.5rem 1rem;
     }
 
+    .navbar-img-mobile {
+        margin-left: 36px;
+    }
+
     .navbar-img-desktop {
         display: none;
     }
@@ -40,16 +44,32 @@
     }
 
     .text-white {
+        margin-left: 20px;
         font-family: 'montserrat';
         color: #000!important;
     }
 
     .navbar-toggler {
+        width: 53px;
+        height: 53px;
+        margin-right: 33px;
         color: #000!important;
         background-color: rgb(30, 30, 30, 21%);
+        font-weight: bold;
+        font-size: 1.rem;
+        padding: 0;
+        font-weight: 600;
+        font-style: oblique;
+        border: 3px solid rgba(0, 0, 0, 0.966);   
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("/assets/icones/menu-icon.svg");
+      
     }
 
     .text-muted {
+        margin-left: 20px;
         font-family: 'montserrat';
         color: #000!important;
     }
@@ -62,6 +82,14 @@
         display: none;
     }
 
+    .navbar-img-desktop {
+        margin-left: 109px;
+    }
+
+    .navbar-img-desktop:hover {
+        transform: scale(1.1);
+    }
+
     .bg-dark {
         background-color: #FFFFFF!important;
     }
@@ -72,8 +100,16 @@
     }
 
     .navbar-toggler {
+        width: 53px;
+        height: 53px;
+        margin-right: 103px;
         color: #000!important;
         background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("/assets/icones/menu-icon.svg");
+      
     }
 
     .text-muted {
@@ -89,6 +125,14 @@
         display: none;
     }
 
+    .navbar-img-desktop {
+        margin-left: 109px;
+    }
+
+    .navbar-img-desktop:hover {
+        transform: scale(1.1);
+    }
+
     .bg-dark {
         background-color: #FFFFFF!important;
     }
@@ -99,8 +143,16 @@
     }
 
     .navbar-toggler {
+        width: 53px;
+        height: 53px;
+        margin-right: 109px;
         color: #000!important;
         background-color: rgb(30, 30, 30, 21%);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("/assets/icones/menu-icon.svg");
+      
     }
 
     .text-muted {

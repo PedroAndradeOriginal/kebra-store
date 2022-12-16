@@ -2,77 +2,83 @@
 <html lang="pt-br">
 
 <head>
-    <title>Kebra-Store</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/icones/favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+  <title>Kebra-Store</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/icones/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="shortcut icon" href="assets/roupas/" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/cards.css">
+  <link rel="shortcut icon" href="assets/roupas/" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/cards.css">
 </head>
 
 <body>
 
-    <!-- ============== Pedro Maurício =============== -->
-    
+  <!-- ============== Pedro Maurício =============== -->
+
   <header>
-      <div class="bg-dark collapse" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">Sobre</h4>
-              <p class="text-muted">A KEBRA STORE é uma loja eletrônica de moda e estilo de vida comprometida em tornar a grife da kebrada para os manos.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contato</h4>
-              <ul class="list-unstyled">
-                <li><a href="https://www.instagram.com/kebra.store/" class="text-white">Nosso Instagram</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100063673688454" class="text-white">Curta no Facebook</a></li>
-                <li><a href="https://api.whatsapp.com/send/?phone=5521990839921&text&type=phone_number&app_absent=0" class="text-white">Entre em contato via WhatsApp</a></li>
-              </ul>
-            </div>
+    <div class="bg-dark collapse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">Sobre</h4>
+            <p class="text-muted">A KEBRA STORE é uma loja de moda e estilo de vida, comprometida em tornar a grife da
+              kebrada para os manos.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contato</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://www.instagram.com/kebra.store/" class="text-white">Nosso Instagram</a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100063673688454" class="text-white">Curta no
+                  Facebook</a></li>
+              <li><a href="https://api.whatsapp.com/send/?phone=5521990839921&text&type=phone_number&app_absent=0"
+                  class="text-white">Entre em contato via WhatsApp</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div >
+    </div>
+    <nav class="navbar navbar-light bg-dark shadow-sm">
+      <a id="logo-menu" href="index.html">
+        <div>
           <img class="navbar-img-desktop" src="assets/logos/logoHeader.svg" alt="Logo Kebra-Store">
           <img class="navbar-img-mobile" src="assets/logos/logoHeaderMobile.svg" alt="Logo Kebra-Store">
         </div>
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+      </a>
+
+      <!-- <div class="container d-flex justify-content-between"> -->
+      <a href="#" class="navbar-brand d-flex align-items-center"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+        aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       </div>
+    </nav>
   </header>
 
-    <!-- ============== Jorge Mario =============== -->
-    
+  <!-- ============== Jorge Mario =============== -->
+
   <main role="main">
     <article>
       <div class="album py-5">
-        <div class="container-fluid">
-          <div class="row no-gutters d-flex">
-            <div id="kebraCard"class=" col-md-6 col-xl-4">         <!--card 1 -->     
+        <div class="container-card-fluid">
+          <div class="row no-gutters d-flex ">
+            <div id="kebraCard" class=" col-md-6 col-xl-4"> <!--card 1 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.28.jpeg"
-                alt="Card image cap"/>
+                <img id="card_1" class="cardimg" src="assets/roupas/set1/orange1.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Conjunto Biker</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c1a"  type="button" class="btn"></button>
-                        <button id="c1b"  type="button" class="btn"></button>
-                        <button id="c1c"  type="button" class="btn"></button>
-                        <button id="c1d"  type="button" class="btn"></button>
+                        <button id="c1a" type="button" class="btn"></button>
+                        <button id="c1b" type="button" class="btn"></button>
+                        <button id="c1c" type="button" class="btn"></button>
+                        <button id="c1d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
@@ -85,285 +91,277 @@
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.28.jpeg">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.29 (1).jpeg">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.30 (1).jpeg">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.30.jpeg">
+                  <img class="modal-img" src="assets/roupas/set1/orange2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set1/orange3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set1/orange4.jpeg">
+                  <img class="modal-img" src="assets/roupas/set1/orange5.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard"class="col-md-6 col-xl-4">         <!--card 2 -->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 2 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.32 (1).jpeg"
-                alt="Card image cap"/>
+                <img id="card_2" class="cardimg" src="assets/roupas/set2/black1.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Conjunto Biker</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c2a"  type="button" class="btn"></button>
-                        <button id="c2b"  type="button" class="btn"></button>
-                        <button id="c2c"  type="button" class="btn"></button>
-                        <button id="c2d"  type="button" class="btn"></button>
+                        <button id="c2a" type="button" class="btn"></button>
+                        <button id="c2b" type="button" class="btn"></button>
+                        <button id="c2c" type="button" class="btn"></button>
+                        <button id="c2d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">M-G-GG</p>
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$80,00</p>
+                    <p class="price">R$80,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.32.jpeg">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.33 (1).jpeg">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.33.jpeg">
-                    <img class="modal-img" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.34 (1).jpeg">
+                  <img class="modal-img" src="assets/roupas/set2/black2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set2/black3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set2/black4.jpeg">
+                  <img class="modal-img" src="assets/roupas/set2/pink1.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard"class="col-md-6 col-xl-4">         <!--card 3 -->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 3 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.37.jpeg"
-                  alt="Card image cap"/>
+                <img class="cardimg" src="assets/roupas/set3/bp2.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Mochila Kebra-tudo</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c3a"  type="button" class="btn"></button>
-                        <button id="c3b"  type="button" class="btn"></button>
-                        <button id="c3c"  type="button" class="btn"></button>
-                        <button id="c3d"  type="button" class="btn"></button>
+                        <button id="c3a" type="button" class="btn"></button>
+                        <button id="c3b" type="button" class="btn"></button>
+                        <button id="c3c" type="button" class="btn"></button>
+                        <button id="c3d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">Tamanho único</p>
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$85,00</p>
+                    <p class="price">R$85,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
+                  <img class="modal-img" src="assets/roupas/set3/bp1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set3/bp2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set3/bp3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set3/bp4.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard" class="col-md-6 col-xl-4">         <!--card 4 -->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 4 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.38 (1).jpeg"
-                  alt="Card image cap"/>
+                <img class="cardimg" src="assets/roupas/set8/pink1.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Título</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c4a"  type="button" class="btn"></button>
-                        <button id="c4b"  type="button" class="btn"></button>
-                        <button id="c4c"  type="button" class="btn"></button>
-                        <button id="c4d"  type="button" class="btn"></button>
+                        <button id="c4a" type="button" class="btn"></button>
+                        <button id="c4b" type="button" class="btn"></button>
+                        <button id="c4c" type="button" class="btn"></button>
+                        <button id="c4d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">P-M-G-GG</p>
-                    
+
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$104,00</p>
+                    <p class="price">R$104,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
+                  <img class="modal-img" src="assets/roupas/set8/pink1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set8/pink2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set8/pink3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set8/pink1.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard" class="col-md-6 col-xl-4">         <!--card 5-->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 5-->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.42 (1).jpeg"
-                  alt="Card image cap"/>
+                <img class="cardimg" src="assets/roupas/set4/yellow1.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Título</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c5a"  type="button" class="btn"></button>
-                        <button id="c5b"  type="button" class="btn"></button>
-                        <button id="c5c"  type="button" class="btn"></button>
-                        <button id="c5d"  type="button" class="btn"></button>
-                      </div>
-                    </div>
-                    <p>Disponivel nos Tamanhos</p>
-                    <p class="sizes">P-M-G-GG</p>
-                  </div>
-                  <div class="bodyB">
-                      <p class="price">R$85,00</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slideModelo">
-                <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                </div>
-                <span id="botao-fechar">x</span>
-              </div>
-            </div>
-            <div id="kebraCard"class="col-md-6 col-xl-4">         <!--card 6 -->     
-              <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.05.22 (1).jpeg"
-                  alt="Card image cap"/>
-                <div class="cardBody">
-                  <div class="bodyA">
-                    <p class="txtA">Título</p>
-                    <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
-                      <div class="btn">
-                        <button id="c6a"  type="button" class="btn"></button>
-                        <button id="c6b"  type="button" class="btn"></button>
-                        <button id="c6c"  type="button" class="btn"></button>
-                        <button id="c6d"  type="button" class="btn"></button>
+                        <button id="c5a" type="button" class="btn"></button>
+                        <button id="c5b" type="button" class="btn"></button>
+                        <button id="c5c" type="button" class="btn"></button>
+                        <button id="c5d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">P-M-G-GG</p>
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$90,00</p>
+                    <p class="price">R$85,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
+                  <img class="modal-img" src="assets/roupas/set4/yellow1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set4/yellow2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set4/yellow3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set4/yellow4.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard"class="col-md-6 col-xl-4">         <!--card 7 -->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 6 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.05.25 (2).jpeg"
-                  alt="Card image cap"/>
+                <img class="cardimg" src="assets/roupas/set5/white2.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Título</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c7a"  type="button" class="btn"></button>
-                        <button id="c7b"  type="button" class="btn"></button>
-                        <button id="c7c"  type="button" class="btn"></button>
-                        <button id="c7d"  type="button" class="btn"></button>
+                        <button id="c6a" type="button" class="btn"></button>
+                        <button id="c6b" type="button" class="btn"></button>
+                        <button id="c6c" type="button" class="btn"></button>
+                        <button id="c6d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">P-M-G-GG</p>
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$80,00</p>
+                    <p class="price">R$90,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
+                  <img class="modal-img" src="assets/roupas/set5/white4.jpeg">
+                  <img class="modal-img" src="assets/roupas/set5/white1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set5/black3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set5/black2.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard" class="col-md-6 col-xl-4">         <!--card 8 -->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 7 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.04.41 (1).jpeg"
-                  alt="Card image cap"/>
+                <img class="cardimg" src="assets/roupas/set7/yellow2.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Título</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c8a"  type="button" class="btn"></button>
-                        <button id="c8b"  type="button" class="btn"></button>
-                        <button id="c8c"  type="button" class="btn"></button>
-                        <button id="c8d"  type="button" class="btn"></button>
+                        <button id="c7a" type="button" class="btn"></button>
+                        <button id="c7b" type="button" class="btn"></button>
+                        <button id="c7c" type="button" class="btn"></button>
+                        <button id="c7d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">P-M-G-GG</p>
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$150,00</p>
+                    <p class="price">R$80,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
+                  <img class="modal-img" src="assets/roupas/set7/yellow1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set7/yellow2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set7/yellow3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set7/yellow4.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
-            <div id="kebraCard"class="col-md-12 col-xl-4">         <!--card 9 -->     
+            <div id="kebraCard" class="col-md-6 col-xl-4"> <!--card 8 -->
               <div class="card">
-                <img class="cardimg" onclick="abreModal()" src="assets/roupas/WhatsApp Image 2022-11-16 at 05.05.28 (1).jpeg"
-                  alt="Card image cap"/>
+                <img class="cardimg" src="assets/roupas/set9/pink3.jpeg" alt="Card image cap" />
                 <div class="cardBody">
                   <div class="bodyA">
                     <p class="txtA">Título</p>
                     <p class="txtB">Disponivel nas cores</p>
-                    <div class="buttons" >
+                    <div class="buttons">
                       <div class="btn">
-                        <button id="c9a"  type="button" class="btn"></button>
-                        <button id="c9b"  type="button" class="btn"></button>
-                        <button id="c9c"  type="button" class="btn"></button>
-                        <button id="c9d"  type="button" class="btn"></button>
+                        <button id="c8a" type="button" class="btn"></button>
+                        <button id="c8b" type="button" class="btn"></button>
+                        <button id="c8c" type="button" class="btn"></button>
+                        <button id="c8d" type="button" class="btn"></button>
                       </div>
                     </div>
                     <p>Disponivel nos Tamanhos</p>
                     <p class="sizes">P-M-G-GG</p>
                   </div>
                   <div class="bodyB">
-                      <p class="price">R$85,00</p>
+                    <p class="price">R$150,00</p>
                   </div>
                 </div>
               </div>
               <div class="slideModelo">
                 <div class="conteudo-modal">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
-                    <img class="modal-img" src="">
+                  <img class="modal-img" src="assets/roupas/set9/pink1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set9/pink2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set9/pink3.jpeg">
+                  <img class="modal-img" src="assets/roupas/set9/pink4.jpeg">
                 </div>
-                <span id="botao-fechar">x</span>
+                <span id="botao-fechar">&times;</span>
+              </div>
+            </div>
+            <div id="kebraCard" class="col-md-12 col-xl-4"> <!--card 9 -->
+              <div class="card">
+                <img class="cardimg" src="assets/roupas/set6/black1.jpeg" alt="Card image cap" />
+                <div class="cardBody">
+                  <div class="bodyA">
+                    <p class="txtA">Título</p>
+                    <p class="txtB">Disponivel nas cores</p>
+                    <div class="buttons">
+                      <div class="btn">
+                        <button id="c9a" type="button" class="btn"></button>
+                        <button id="c9b" type="button" class="btn"></button>
+                        <button id="c9c" type="button" class="btn"></button>
+                        <button id="c9d" type="button" class="btn"></button>
+                      </div>
+                    </div>
+                    <p>Disponivel nos Tamanhos</p>
+                    <p class="sizes">P-M-G-GG</p>
+                  </div>
+                  <div class="bodyB">
+                    <p class="price">R$85,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slideModelo">
+                <div class="conteudo-modal">
+                  <img class="modal-img" src="assets/roupas/set6/black1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set6/black&white1.jpeg">
+                  <img class="modal-img" src="assets/roupas/set6/black&white2.jpeg">
+                  <img class="modal-img" src="assets/roupas/set6/black&white3.jpeg">
+                </div>
+                <span id="botao-fechar">&times;</span>
               </div>
             </div>
           </div>
@@ -371,35 +369,40 @@
       </div>
     </article>
   </main>
-  
-    <!-- ============== Pedro Andrade =============== -->
+
+  <!-- ============== Pedro Andrade =============== -->
   <footer>
-      <div class="pageEnd">
-          <div class="logoImg">
-              <a href="index.html"><img src="/assets/logos/logoFooter.svg" alt=""></a>
-          </div>
-          <div class="textoEnd">
-              <h2>A GRIFE DOS CRIAS || DA KEBRADA AO ASFALTO</h2>
-              <p>© 2022 - Todos os direitos reservados</p>
-          </div>
+    <div class="pageEnd">
+      <div class="logoImg">
+        <a href="index.html"><img src="/assets/logos/logoFooter.svg" alt=""></a>
       </div>
-      <div class="jabazinho">
-          <p>Desenvolvido por <span>Pedro Andrade</span></p>
-          <nav>
-              <a href="https://wa.me/5521983578774" target="_blank"><img src="/assets/icones/whatsJaba.svg"
-                      alt=""></a>
-              <a href="https://github.com/PedroAndradeOriginal" target="_blank"><img src="/assets/icones/gitJaba.svg"
-                      alt=""></a>
-              <a href="https://www.instagram.com/pedro_andrade_se/?hl=pt" target="_blank"><img
-                      src="/assets/icones/instaJaba.svg" alt=""></a>
-          </nav>
+      <div class="textoEnd">
+        <h2>A GRIFE DOS CRIAS || DA KEBRADA AO ASFALTO</h2>
+        <p>© 2022 - Todos os direitos reservados</p>
       </div>
+    </div>
+    <div class="jabazinho">
+      <p>Desenvolvido por <span>Pedro Andrade</span></p>
+      <nav>
+        <a href="https://wa.me/5521983578774" target="_blank"><img src="/assets/icones/whatsJaba.svg" alt=""></a>
+        <a href="https://github.com/PedroAndradeOriginal" target="_blank"><img src="/assets/icones/gitJaba.svg"
+            alt=""></a>
+        <a href="https://www.instagram.com/pedro_andrade_se/?hl=pt" target="_blank"><img
+            src="/assets/icones/instaJaba.svg" alt=""></a>
+      </nav>
+    </div>
   </footer>
 
   <script src="js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
 </body>
 
