@@ -261,7 +261,7 @@
 .slideModelo {
     position: fixed;
     z-index: 4;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     left: 0;
     top: 0;
     overflow: auto;
@@ -273,6 +273,7 @@
 }
 
 .modal-troca {
+    padding-top: 0px;
     visibility: visible;
 }
 
@@ -292,7 +293,7 @@
     color: #fff;
     background-color: #16181b;
     position: fixed;
-    top: 20px;
+    top: 9%;
     right: 20px;
     padding: 5px 10px;
     font-size: 25pt;
@@ -437,6 +438,7 @@
         justify-content: center; 
         height: 100%;
         z-index: 5;
+        padding-top: 90px;
 
     }
 
@@ -456,6 +458,23 @@
         margin-left: 40px;
         margin-right: 40px; 
         margin-bottom: 40px;
+    }
+
+    #botao-fechar {
+        color: #fff;
+        background-color: #16181b;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 5px 10px;
+        font-size: 25pt;
+        z-index: 10;
+    }
+    
+    #botao-fechar:hover {
+        color: #f00;
+        cursor: pointer;
+     
     }
 
 
