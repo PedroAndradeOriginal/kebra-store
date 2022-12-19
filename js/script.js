@@ -46,5 +46,5 @@ for(let i=0; i<modelos.length; i++){
 botao.addEventListener('click', fechaModal, false);
 
 function fechaModal() {
-    modalCard.classList.toggle('modal-troca')
+    modalCard[0].classList.toggle('modal-troca')
 }

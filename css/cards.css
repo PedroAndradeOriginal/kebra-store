@@ -206,6 +206,8 @@
     padding: 0px;
     border-radius: 50px;
     margin-bottom: 4px;
+    pointer-events:none;
+    
 }
 
 .main {
@@ -293,7 +295,7 @@
     color: #fff;
     background-color: #16181b;
     position: fixed;
-    top: 9%;
+    top: 6%;
     right: 20px;
     padding: 5px 10px;
     font-size: 25pt;
