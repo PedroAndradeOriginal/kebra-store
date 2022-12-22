@@ -18,6 +18,11 @@
     border: 0
 }
 
+p {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
 /* ============ footer ============= */
 
 @media screen and (max-width: 767px) {
